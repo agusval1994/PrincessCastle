@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082911694417040853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082911694417040843}
+  - component: {fileID: 5082911694417040842}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5082911694417040843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082911694417040853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5082911694417040842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082911694417040853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc866ed2307b7a640b11592799d6739d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tema: TemaJuego
+  sounds:
+  - name: TemaJuego
+    clip: {fileID: 0}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 6b21c405aa95f544fbf8f5584b6624af, type: 3}
+    source: {fileID: 0}
+  - name: ActivarDesactivar
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: fc57106579c835b499aec95404c5c938, type: 3}
+    source: {fileID: 0}
+  - name: VolverInicio
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: a00a27dacfcc94b4abbe9ec734a8abea, type: 3}
+    source: {fileID: 0}
+  - name: Cancelar
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 45dd760e7266b434688409fe32085836, type: 3}
+    source: {fileID: 0}
+  - name: BotonContinuar
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 9de752cd0c7642d4b845e9605748bde2, type: 3}
+    source: {fileID: 0}
+  - name: Eleccion
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 145c817b91746de41b5cfc62cfb4204c, type: 3}
+    source: {fileID: 0}
+  - name: Perder
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 8e5197abc8e03d240b3a8411d68ce7b6, type: 3}
+    source: {fileID: 0}
+  - name: Ganar
+    clip: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: c80e1e0c2aff10746ac5fa8b1f4c1680, type: 3}
+    source: {fileID: 0}
+  - name: TirarPelota
+    clip: {fileID: 0}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: fd858c4d3a57f34428d2190045db84df, type: 3}
+    - {fileID: 8300000, guid: 12df390c1d4c6ed45bb599a506f0bff7, type: 3}
+    source: {fileID: 0}
+  - name: SubirMonstruo
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 067749b3737ea7640acc1facf76df13b, type: 3}
+    - {fileID: 8300000, guid: 4e8a745f5053c7443be6efdf70f4b7da, type: 3}
+    - {fileID: 8300000, guid: 654862459f70ac9488516aa71356478e, type: 3}
+    - {fileID: 8300000, guid: f2b6f8417d78dba41ba55afd59879d44, type: 3}
+    source: {fileID: 0}
+  - name: RebotePelota
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 067749b3737ea7640acc1facf76df13b, type: 3}
+    - {fileID: 8300000, guid: 4e8a745f5053c7443be6efdf70f4b7da, type: 3}
+    - {fileID: 8300000, guid: 654862459f70ac9488516aa71356478e, type: 3}
+    - {fileID: 8300000, guid: f2b6f8417d78dba41ba55afd59879d44, type: 3}
+    source: {fileID: 0}
+  - name: MorirMonstruo
+    clip: {fileID: 0}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 1d6db8a0883a6aa40846147d5106b47e, type: 3}
+    - {fileID: 8300000, guid: 549c882c4c2326f4f8a209398c75a291, type: 3}
+    - {fileID: 8300000, guid: baa860379f57ef641b40c7c7adfd0cff, type: 3}
+    source: {fileID: 0}
+  - name: RisaMonstruo
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: a25938da274933f46a2e742d5839550d, type: 3}
+    source: {fileID: 0}
+  - name: RisaFinal
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    listaDeSonidos:
+    - {fileID: 8300000, guid: 953a1459f0b4fd34e9802c0f08527827, type: 3}
+    source: {fileID: 0}

@@ -1,2 +1,2 @@
 # PrincessCastle
- Juego de rescatar a la princesa
+ Juego de salvar a la princesa
